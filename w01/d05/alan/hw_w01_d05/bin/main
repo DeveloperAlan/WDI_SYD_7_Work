@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require_relative "../HappiTails/animal_prompt.rb"
+require_relative "../HappiTails/client.rb"
+require_relative "../HappiTails/shelter.rb"
+
+HappiTails::Shelter.new.start
