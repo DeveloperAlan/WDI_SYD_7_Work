@@ -1,0 +1,42 @@
+* {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 8em;
+}
+
+#my_square {
+  background: blue;
+  width: 25%;
+  height: 100px;
+}
+
+#big-section {
+  font-size: 2em;
+}
+
+#sub_square{
+  background: green;
+  width: 30%;
+  height: 50px;
+}
+
+#container {
+  width: 906px;
+  margin: 20px auto;
+}
+
+.clearfix{
+  clear: both;
+}
+
+body {
+  text-align: center
+}
+
+footer {
+  background-color: yellow;
+  width: 500px;
+  length: 200px;
+}
