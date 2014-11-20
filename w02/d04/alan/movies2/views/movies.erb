@@ -1,0 +1,46 @@
+<h1>Alan's Movie</h1>
+
+<form action="/search" method="GET">
+  <input type="text" name="movie" placeholder="Frozen">
+  <input type="submit" value="Lookup Movie">
+</form>
+
+<% if @movie %>
+  <h2><%= @movie["Title"] %></h2>
+  <img src="<%= @movie["Poster"] %>"> 
+  <ul>
+    <li>Year: <%= @movie["Year"] %></li>
+    <li>Rated: <%= @movie["Rated"] %></li> 
+    <li>Released: <%= @movie["Released"] %></li>
+    <li>Runtime: <%= @movie["Runtime"] %></li>
+    <li>Genre: <%= @movie["Genre"] %></li>
+    <li>Director: <%= @movie["Director"] %></li>
+    <li>Writer: <%= @movie["Writer"] %></li>
+    <li>Actors<%= @movie["Actors"] %></li>
+    <li>Plot: <%= @movie["Plot"] %></li>
+    <li>Year: <%= @movie["Year"] %></li>
+    <li>Language: <%= @movie["Language"] %></li>
+    <li>Country: <%= @movie["Country"] %></li>
+    <li>Awards: <%= @movie["Awards"] %></li>
+    <li>Metascore: <%= @movie["Metascore"] %></li>
+    <li><strong>Rotten Tomato Rating:</strong> 
+          <% @movie["tomatoRating"].to_i.times do |i| %>
+           <img src="/tomato.png" width="20px" height="20px">
+          <% end %></li>
+          
+    <li><strong>IMDB Rating: </strong>
+          <% @movie["imdbRating"].to_i.times do |i| %>
+           <img src="/star.png" width="20px" height="20px">
+          <% end %></li>
+    <li>imdb Vote: <%= @movie["imdbVotes"] %></li>
+    <li>imdb ID: <%= @movie["imdbID"] %></li>
+  </ul>
+<% end %>
+
+<% if @movie_list %>
+  <% @movie_list.each do |movie| %>
+     <a href="/movies/<%= movie["imdbID"] %>">
+     <%= movie["Title"] %></a>
+     <br>
+  <% end %>
+<% end %>

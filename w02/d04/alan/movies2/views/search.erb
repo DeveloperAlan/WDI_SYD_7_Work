@@ -1,0 +1,15 @@
+<h1>Alan's Movies</h1>
+
+<form action="/search" method="GET">
+  <input type="text" name="movie" placeholder="Frozen">
+  <input type="submit" value="Lookup Movie">
+</form>
+
+
+<% if @movie_list %>
+  <% @movie_list.each do |movie| %>
+     <a href="/movies/<%= movie["imdbID"] %>">
+     <%= movie["Title"] %></a>
+     <br>
+  <% end %>
+<% end %>
