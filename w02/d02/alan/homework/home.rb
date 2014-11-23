@@ -1,15 +1,23 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-student = {
+
+students = {
   "Jack" => {
-    name: "Jack Watson Hamblin"
-    skills: ["Ruby", "iOS"]}
+    name: "Jack Watson Hamblin",
+    skills: ["Ruby", "iOS"]
+  },
+
   "Alan" => {
-    name: "Alan Ng"
-    skills: ["Basketball", "Awesome"]}
+    name: "Alan Ng",
+    skills: ["Basketball", "Awesome"]
+  }
 }
 
 get '/' do
   erb :home, layout: :layout
 end
+
+get '/student/:name' do 
+  erb :student, layout: :layout
+  end

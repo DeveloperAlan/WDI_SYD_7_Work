@@ -2,14 +2,8 @@ require 'rainbow'
 # A user should be given a menu of operations
 # A user should be able to choose from the menu
 def menu
-print Rainbow("\n                                  | $$                                                                                  | $$                          ").yellow
-print Rainbow("\n /$$$$$$$  /$$   /$$ /$$$$$$/$$$$ | $$$$$$$   /$$$$$$   /$$$$$$         /$$$$$$$  /$$$$$$  /$$   /$$ /$$$$$$$   /$$$$$$$| $$$$$$$   /$$$$$$   /$$$$$$ ").yellow
-print Rainbow("\n| $$__  $$| $$  | $$| $$_  $$_  $$| $$__  $$ /$$__  $$ /$$__  $$       /$$_____/ /$$__  $$| $$  | $$| $$__  $$ /$$_____/| $$__  $$ /$$__  $$ /$$__  $$").yellow
-print Rainbow("\n| $$  | $$| $$  | $$| $$ | $$ | $$| $$  | $$| $$_____/| $$            | $$      | $$      | $$  | $$| $$  | $$| $$      | $$  | $$| $$_____/| $$      ").yellow
-print Rainbow("\n| $$  | $$|  $$$$$$/| $$ | $$ | $$| $$$$$$$/|  $$$$$$$| $$            |  $$$$$$$| $$      |  $$$$$$/| $$  | $$|  $$$$$$$| $$  | $$|  $$$$$$$| $$      ").yellow
-print Rainbow("\n|__/  |__/ \______/ |__/ |__/ |__/|_______/   \_______/|__/              \_______/|__/        \______/ |__/  |__/ \_______/  |__/  |__/ \_______/|__/      ").yellow
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
-  print Rainbow("\n(B)").yellow + "asic Caculator"
+  print "B"asic Caculator"
   print Rainbow("\n(A)").yellow + "dvanced Calculator"
   print Rainbow("\n(Q)").yellow + "uit"
   print "\n"

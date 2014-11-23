@@ -1,0 +1,4 @@
+  <%= @movie.each do |movie| %>
+    <a href="/result/<%=movie["Title"].gsub(" ","+")%>"<%= movie["Title"]%> 
+    </a>
+  <% end %>
