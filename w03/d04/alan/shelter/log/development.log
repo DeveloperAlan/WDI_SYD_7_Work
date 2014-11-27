@@ -1,0 +1,51 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 12:21:59 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/cm/.rvm/gems/ruby-2.1.4@global/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 45ms (Views: 24.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 12:22:17 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/cm/.rvm/gems/ruby-2.1.4@global/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 12:22:40 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/cm/.rvm/gems/ruby-2.1.4@global/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-27 12:23:14 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/cm/.rvm/gems/ruby-2.1.4@global/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/animals" for 127.0.0.1 at 2014-11-27 12:23:18 +1100
+Processing by AnimalsController#index as HTML
+  Rendered animals/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1163ms (Views: 1162.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animals.css?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/animals.js?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-27 12:23:19 +1100
