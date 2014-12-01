@@ -9,5 +9,7 @@
 #  updated_at    :datetime
 #
 
-class IngredientsRecipes < ActiveRecord::Base
+class IngredientsRecipe < ActiveRecord::Base
+  belongs_to :ingredient
+  belongs_to :recipe
 end
